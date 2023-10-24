@@ -45,7 +45,7 @@ export const StoreModal = () => {
       toast.error("Something went wrong.");
     } finally {
       setLoading(false);
-    }
+    } 
   };
 
   return (
