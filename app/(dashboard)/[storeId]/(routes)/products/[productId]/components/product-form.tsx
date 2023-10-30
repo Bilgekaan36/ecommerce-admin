@@ -286,7 +286,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
               name='colorId'
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Size</FormLabel>
+                  <FormLabel>Color</FormLabel>
                   <Select
                     disabled={loading}
                     onValueChange={field.onChange}
